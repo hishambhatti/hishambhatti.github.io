@@ -3,7 +3,6 @@ function App() {
   return (
     <>
       Work in Progress
-      BOO-YAH!
     </>
   )
 }
