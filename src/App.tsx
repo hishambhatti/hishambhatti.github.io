@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-      Work in Progress
+      Website is "Work in Progress"
     </>
   )
 }
