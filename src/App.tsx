@@ -19,19 +19,38 @@ function App() {
                <img className="rounded-lg" src="profile.jpeg" alt="Picture of Hisham Bhatti"></img>
             </div>
             <h1 className="text-3xl">Hisham Bhatti</h1>
-            <p className="text-md text-gray-500 font-light">AI Ubicomp Researcher</p>
-            <div className="flex gap-4 mt-4 mb-4 text-2xl text-gray-600">
+            <p className="text-md text-gray-500 font-light mb-0">AI Ubicomp Researcher</p>
+            <div className="flex gap-4 mt-0 mb-2 text-2xl text-gray-600">
               {/* These would be your 4 icons */}
-              <i className="fa-regular fa-envelope"></i>
-              <i className="fa-brands fa-square-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
-              <i className="fa-brands fa-google-scholar"></i>
+              <div className="flex gap-4 mt-4 mb-4 text-2xl text-gray-600">
+                <a href="mailto:hishamb@uw.edu" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110">
+                  <i className="fa-regular fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/hisham-bhatti/" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110">
+                  <i className="fa-brands fa-square-linkedin"></i>
+                </a>
+                <a href="https://github.com/hishambhatti" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110">
+                  <i className="fa-brands fa-github"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?user=FAJ4chsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110">
+                  <i className="fa-brands fa-google-scholar"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div className="border-t pt-6">
-            <p><i className="fa-solid fa-location-dot"></i> Seattle, WA</p>
-            <p><i className="fa-regular fa-file-lines"></i> Resume (as of July 2025)</p>
+          <div className="border-t-2 pt-6 text-gray-500"></div>
+
+          <div className="space-y-1 text-gray-600 font-light">
+            <p><i className="fa-regular fa-envelope"></i> hishamb@cs.washington.edu</p>
+            <p><i className="fa-solid fa-location-dot"></i>  Seattle, WA</p>
+            <p>
+              <i className="fa-regular fa-file-lines"></i>{" "}
+              <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600 underline underline-offset-2 transition">
+                Resume
+              </a>
+               &nbsp;(as of July 2025)
+            </p>
           </div>
         </aside>
 
