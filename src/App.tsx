@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import About from "./components/About";
+import Experience from "./components/Experience";
 
 // Placeholder Components for the Right Side
-const Experience = () => <section id="experience" className="min-h-screen py-20"><h2>Experience</h2><p>Content goes here...</p></section>;
 const Portfolio = () => <section id="portfolio" className="min-h-screen py-20"><h2>Portfolio</h2></section>;
 
 function App() {
@@ -67,16 +67,14 @@ function App() {
               <a href="#skills">Skills</a>
             </div>
             <button onClick={() => setDarkMode(!darkMode)} className="text-2xl">
-              {darkMode ? "☀️" : "🌙"}
+              {darkMode ? <i className="fa-regular fa-sun"></i> : <i className="fa-regular fa-moon"></i>}
             </button>
           </nav>
 
           {/* Scrollable Content Area */}
           <div className="overflow-y-auto p-10 scroll-smooth">
             <About />
-            <hr />
             <Experience />
-            <hr />
             <Portfolio />
             {/* Add other sections here */}
           </div>
