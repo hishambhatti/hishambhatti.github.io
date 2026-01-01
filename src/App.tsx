@@ -1,7 +1,7 @@
 import React, { useState } from "react";
+import About from "./components/About";
 
 // Placeholder Components for the Right Side
-const About = () => <section id="about" className="min-h-screen py-20"><h2>About Me</h2><p>Content goes here...</p></section>;
 const Experience = () => <section id="experience" className="min-h-screen py-20"><h2>Experience</h2><p>Content goes here...</p></section>;
 const Portfolio = () => <section id="portfolio" className="min-h-screen py-20"><h2>Portfolio</h2></section>;
 
@@ -46,7 +46,7 @@ function App() {
             <p><i className="fa-solid fa-location-dot"></i>  Seattle, WA</p>
             <p>
               <i className="fa-regular fa-file-lines"></i>{" "}
-              <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600 underline underline-offset-2 transition">
+              <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600 hover:underline underline-offset-2 transition">
                 Resume
               </a>
                &nbsp;(as of July 2025)
