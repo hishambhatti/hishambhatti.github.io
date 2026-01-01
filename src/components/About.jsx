@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function About() {
   return (
     <section id="about" className="space-y-4 px-4">

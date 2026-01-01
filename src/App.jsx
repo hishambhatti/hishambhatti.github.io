@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import About from "./components/About";
-import Experience from "./components/Experience";
+import Experience from "./components/Experience"
 
 // Placeholder Components for the Right Side
 const Portfolio = () => <section id="portfolio" className="min-h-screen py-20"><h2>Portfolio</h2></section>;

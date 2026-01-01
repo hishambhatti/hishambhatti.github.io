@@ -1,5 +1,3 @@
-import React from 'react';
-
 const TimelineItem = ({ title, date, subtitle, location }) => (
   <div className="relative pl-8 pb-6 group">
     {/* The Vertical Line */}
