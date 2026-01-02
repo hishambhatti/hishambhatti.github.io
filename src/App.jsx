@@ -1,9 +1,7 @@
 import { useState } from "react";
 import About from "./components/About";
 import Experience from "./components/Experience"
-
-// Placeholder Components for the Right Side
-const Portfolio = () => <section id="portfolio" className="min-h-screen py-20"><h2>Portfolio</h2></section>;
+import Projects from "./components/Projects";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -75,7 +73,7 @@ function App() {
           <div className="overflow-y-auto p-10 scroll-smooth">
             <About />
             <Experience />
-            <Portfolio />
+            <Projects darkMode={darkMode}/>
             {/* Add other sections here */}
           </div>
         </main>
