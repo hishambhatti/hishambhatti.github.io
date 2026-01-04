@@ -6,6 +6,7 @@ import Publications from "./components/Publications";
 import Skills from "./components/Skills";
 import Footer from "./components/Footer";
 import ThemeToggle from "./components/ThemeToggle";
+import Typewriter from "./components/Typewriter";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -21,7 +22,15 @@ function App() {
                <img className="rounded-lg" src="profile.jpeg" alt="Picture of Hisham Bhatti"></img>
             </div>
             <h1 className="text-3xl">Hisham Bhatti</h1>
-            <p className="text-md text-gray-500 font-light mb-0">AI Ubicomp Researcher</p>
+            <p className="text-md text-gray-500 font-light mb-0">
+              <Typewriter
+                words={[
+                  "AI Ubicomp Researcher",
+                  "MS Student @ UW",
+                  "Aspiring Software Developer"
+                ]}
+              />
+            </p>
             <div className={`flex gap-4 mt-0 mb-2 text-2xl ${darkMode ? ' text-gray-300 ' : ' text-gray-600 '}`}>
               {/* These would be your 4 icons */}
               <div className="flex gap-4 mt-4 mb-4 text-2xl">
@@ -60,7 +69,7 @@ function App() {
         <main className="w-2/3 flex flex-col h-screen">
 
           {/* Top Navigation Panel */}
-          <nav className="sticky top-0 bg-inherit p-6 flex justify-between items-center z-10">
+          <nav className="sticky top-0 bg-inherit px-14 py-6 flex justify-between items-center z-10">
             <div className="flex gap-6 font-medium">
               <a href="#about">About</a>
               <a href="#experience">Experience</a>
