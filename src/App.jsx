@@ -71,11 +71,11 @@ function App() {
           {/* Top Navigation Panel */}
           <nav className="sticky top-0 bg-inherit px-14 py-6 flex justify-between items-center z-10">
             <div className="flex gap-6 font-medium">
-              <a href="#about">About</a>
-              <a href="#experience">Experience</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#publications">Publications</a>
-              <a href="#skills">Skills</a>
+              <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#about">About</a>
+              <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#experience">Experience</a>
+              <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#portfolio">Portfolio</a>
+              <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#publications">Publications</a>
+              <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#skills">Skills</a>
             </div>
             <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
           </nav>

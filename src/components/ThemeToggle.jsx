@@ -23,7 +23,7 @@ const ThemeToggle = ({ darkMode, setDarkMode }) => {
         transition={{ type: "spring", stiffness: 200, damping: 10 }}
       >
         <AnimatePresence mode="wait" initial={false}>
-          {darkMode ? (
+          {!darkMode ? (
             <motion.i
               key="moon"
               initial={{ scale: 0.5, opacity: 0, rotate: -90 }}
