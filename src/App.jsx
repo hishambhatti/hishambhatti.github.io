@@ -3,6 +3,7 @@ import About from "./components/About";
 import Experience from "./components/Experience"
 import Projects from "./components/Projects";
 import Publications from "./components/Publications";
+import Skills from "./components/Skills";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -76,10 +77,10 @@ function App() {
             <Experience />
             <Projects darkMode={darkMode}/>
             <Publications darkMode={darkMode}/>
+            <Skills/>
             {/* Add other sections here */}
           </div>
         </main>
-
       </div>
     </div>
   );
