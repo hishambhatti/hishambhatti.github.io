@@ -52,5 +52,32 @@ export const projects = [
     tools: ["D3.js", "Javascript", "Statistics", "Education"],
     demo: "https://clt-statistics-a5e31b.pages.cs.washington.edu",
     github: "https://github.com/hishambhatti/clt-statistics"
+  },
+  {
+    title: "DS-labs",
+    short: "A sharded, linearizable, available KV store, with dynamic load balancing and atomic multi-key transactions.",
+    long: "A sharded, linearizable, available key-value store, with dynamic load balancing and atomic multi-key transactions. Includes exactly-one RPC, primary backup, paxos, and multipaxos.",
+    image: "project_pics/ds-labs.png",
+    tools: ["Java", "Distributed Systems", "Paxos"],
+    demo: null,
+    github: "https://github.com/hishambhatti/ds-labs"
+  },
+  {
+    title: "Personal Website",
+    short: "My personal website sharing information about my interests, projects, and experience.",
+    long:  "My personal website sharing information about my interests, projects, and experience. Built with React and Tailwind CSS and hosted on a custom domain.",
+    image: "project_pics/personal-website.png",
+    tools: ["React", "Tailwind CSS", "GoDaddy", "Design"],
+    demo: "https://hishambhatti.com",
+    github: "https://github.com/hishambhatti/hishambhatti.github.io"
+  },
+  {
+    title: "Simple DB",
+    short: "A DBMS that runs SQL queries, supports concurrent transactions, and handles recovery via a write-ahead log.",
+    long:  "A DBMS implementation to run SQL queries. Supports converstion of logical to physical query plan, query optimization, concurrency with Strict 2PL locking, and recovery via a write-ahead log.",
+    image: "project_pics/simple-db.png",
+    tools: ["Java", "Databases", "Concurrency"],
+    demo: null,
+    github: "https://github.com/hishambhatti/simple-db"
   }
 ];

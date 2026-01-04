@@ -2,6 +2,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Portfolio from "./components/Portfolio";
 import * as C from "./utils/projects.js"
+import * as P from "./utils/publications.js"
 import About from "./components/About";
 import Experience from "./components/Experience"
 import Projects from "./components/Projects";
@@ -16,11 +17,11 @@ function App() {
 
   return (
     <Router>
-      <div className={darkMode ? "bg-slate-900 text-white" : "bg-white text-slate-900 transition transform"}>
+      <div className={darkMode ? "bg-slate-900 text-white transition transform" : "bg-white text-slate-900 transition transform"}>
         <div className="flex h-screen overflow-hidden">
 
           {/* Left Sidebar */}
-          <aside className="w-1/3 border-r-2 border-width border-gray-300 px-20 py-10 flex flex-col justify-content">
+          <aside className={`w-1/3 border-r-2 border-width border-gray-300 px-20 py-10 flex flex-col justify-content ${!darkMode? ' bg-[#FBF8FF]' : ' '}`}>
             <div>
               <div className="w-full mb-4 aspect-square">
                 <img className="rounded-lg" src="profile.jpeg" alt="Picture of Hisham Bhatti"></img>
@@ -92,7 +93,7 @@ function App() {
                     <About />
                     <Experience darkMode={darkMode}/>
                     <Projects darkMode={darkMode} projects={C.projects.slice(0, 6)}/>
-                    <Publications darkMode={darkMode}/>
+                    <Publications darkMode={darkMode} publications={P.publications}/>
                     <Skills darkMode={darkMode}/>
                     <Footer darkMode={darkMode}/>
                     {/* Add other sections here */}
