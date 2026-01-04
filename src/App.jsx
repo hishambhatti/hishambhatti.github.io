@@ -2,6 +2,7 @@ import { useState } from "react";
 import About from "./components/About";
 import Experience from "./components/Experience"
 import Projects from "./components/Projects";
+import Publications from "./components/Publications";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -18,9 +19,9 @@ function App() {
             </div>
             <h1 className="text-3xl">Hisham Bhatti</h1>
             <p className="text-md text-gray-500 font-light mb-0">AI Ubicomp Researcher</p>
-            <div className="flex gap-4 mt-0 mb-2 text-2xl text-gray-600">
+            <div className={`flex gap-4 mt-0 mb-2 text-2xl ${darkMode ? ' text-gray-400 ' : ' text-gray-600 '}`}>
               {/* These would be your 4 icons */}
-              <div className="flex gap-4 mt-4 mb-4 text-2xl text-gray-600">
+              <div className="flex gap-4 mt-4 mb-4 text-2xl">
                 <a href="mailto:hishamb@uw.edu" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110">
                   <i className="fa-regular fa-envelope"></i>
                 </a>
@@ -39,7 +40,7 @@ function App() {
 
           <div className="border-t-2 pt-6 text-gray-500"></div>
 
-          <div className="space-y-1 text-gray-600 font-light">
+          <div className={`space-y-1 ${darkMode ? ' text-gray-400 ' : ' text-gray-600 '} font-light`}>
             <p><i className="fa-regular fa-envelope"></i> hishamb@cs.washington.edu</p>
             <p><i className="fa-solid fa-location-dot"></i>  Seattle, WA</p>
             <p>
@@ -70,10 +71,11 @@ function App() {
           </nav>
 
           {/* Scrollable Content Area */}
-          <div className="overflow-y-auto p-10 scroll-smooth">
+          <div className="overflow-y-auto px-10 scroll-smooth">
             <About />
             <Experience />
             <Projects darkMode={darkMode}/>
+            <Publications darkMode={darkMode}/>
             {/* Add other sections here */}
           </div>
         </main>

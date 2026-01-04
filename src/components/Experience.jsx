@@ -16,7 +16,7 @@ const TimelineItem = ({ title, date, subtitle, location }) => (
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-10 px-4">
+    <section id="experience" className="pt-8 px-4">
       <h2 className="text-3xl mb-8 border-b-2 border-gray-100 pb-2">Experience</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
