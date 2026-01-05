@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Portfolio from "./components/Portfolio";
 import * as C from "./utils/projects.js"
 import * as P from "./utils/publications.js"
+import * as S from "./utils/skills.js"
 import About from "./components/About";
 import Experience from "./components/Experience"
 import Projects from "./components/Projects";
@@ -21,13 +22,13 @@ function App() {
         <div className="flex h-screen overflow-hidden">
 
           {/* Left Sidebar */}
-          <aside className={`w-1/3 border-r-2 border-width border-gray-300 px-20 py-10 flex flex-col justify-content ${!darkMode? ' bg-[#FBF8FF]' : ' '}`}>
+          <aside className={`w-1/3 border-r-2 border-width border-gray-300 px-20 py-10 flex flex-col justify-content ${!darkMode? ' bg-[#F8F2FF]' : ' '}`}>
             <div>
               <div className="w-full mb-4 aspect-square">
                 <img className="rounded-lg" src="profile.jpeg" alt="Picture of Hisham Bhatti"></img>
               </div>
               <h1 className="text-3xl">Hisham Bhatti</h1>
-              <p className="text-md text-gray-500 font-light mb-0">
+              <p className={`text-md ${darkMode ? ' text-gray-300 ' : ' text-gray-700 '} font-light mb-0`}>
                 <Typewriter
                   words={[
                     "AI Ubicomp Researcher",
@@ -36,8 +37,7 @@ function App() {
                   ]}
                 />
               </p>
-              <div className={`flex gap-4 mt-0 mb-2 text-2xl ${darkMode ? ' text-gray-300 ' : ' text-gray-600 '}`}>
-                {/* These would be your 4 icons */}
+              <div className={`flex gap-4 mt-0 mb-2 text-2xl ${darkMode ? ' text-gray-300 ' : ' text-gray-700 '}`}>
                 <div className="flex gap-4 mt-4 mb-4 text-2xl">
                   <a href="mailto:hishamb@uw.edu" target="_blank" rel="noopener noreferrer" className="transition transform hover:scale-110">
                     <i className="fa-regular fa-envelope"></i>
@@ -70,7 +70,7 @@ function App() {
             </div>
           </aside>
 
-          {/* RIGHT SIDE - Scrollable */}
+          {/* Scrollable Right */}
           <main className="w-2/3 flex flex-col h-screen">
             <Routes>
               {/* Main landing page */}
@@ -81,7 +81,7 @@ function App() {
                     <div className="flex gap-6 font-medium">
                       <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#about">About</a>
                       <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#experience">Experience</a>
-                      <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#portfolio">Portfolio</a>
+                      <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#portfolio">Projects</a>
                       <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#publications">Publications</a>
                       <a className={`transition transform ${darkMode ? ' hover:text-gray-400 ' : ' hover:text-gray-500'} `} href="#skills">Skills</a>
                     </div>
@@ -94,9 +94,8 @@ function App() {
                     <Experience darkMode={darkMode}/>
                     <Projects darkMode={darkMode} projects={C.projects.slice(0, 6)}/>
                     <Publications darkMode={darkMode} publications={P.publications}/>
-                    <Skills darkMode={darkMode}/>
+                    <Skills darkMode={darkMode} skills={S.skills}/>
                     <Footer darkMode={darkMode}/>
-                    {/* Add other sections here */}
                   </div>
                 </>
               } />

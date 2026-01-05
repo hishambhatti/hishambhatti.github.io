@@ -17,7 +17,7 @@ const TimelineItem = ({ title, date, subtitle, location, darkMode }) => (
 export default function Experience({darkMode}) {
   return (
     <section id="experience" className="pt-8 px-4">
-      <h2 className="text-3xl mb-8 border-b-2 border-gray-100 pb-2">Experience</h2>
+      <h2 className="text-3xl mb-8 border-b-2 border-gray-200 pb-2">Experience</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
@@ -80,7 +80,6 @@ export default function Experience({darkMode}) {
             />
           </div>
         </div>
-
       </div>
     </section>
   );

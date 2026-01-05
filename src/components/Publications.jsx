@@ -47,7 +47,7 @@ const PublicationItem = ({ title, authors, journal, year, links, note, darkMode 
 export default function Publications({darkMode, publications}) {
   return (
     <section id="publications" className="pt-8 px-4">
-      <h2 className="text-3xl border-b-2 border-gray-100 pb-2 mb-8">Publications</h2>
+      <h2 className="text-3xl border-b-2 border-gray-200 pb-2 mb-8">Publications</h2>
       <div className="space-y-4">
         {publications.map((pub, index) => (
           <PublicationItem key={index} {...pub} darkMode={darkMode} />

@@ -4,7 +4,7 @@ const ThemeToggle = ({ darkMode, setDarkMode }) => {
   // Audio feedback
   const playClick = () => {
     const audio = new Audio("light.mp3");
-    audio.volume = 0.5;
+    audio.volume = 0.6;
     audio.play();
   };
 

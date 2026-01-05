@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import ProjectModal from './ProjectModal';
 
 export default function Portfolio({ darkMode, projects }) {
-  // 1. Added state to handle the modal popup
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
@@ -15,7 +14,6 @@ export default function Portfolio({ darkMode, projects }) {
         </Link>
       </div>
 
-      {/* 2. Modified Grid: Changed to 3 columns on large screens (lg:grid-cols-3) */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projects.map((project, index) => (
           <div

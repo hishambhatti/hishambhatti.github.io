@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer({darkMode}) {
   return (
-    <footer className={`mt-10 pb-10 border-t border-gray-100 pt-8 text-center text-sm ${darkMode ? ' text-gray-400 ' : ' text-gray-500 '} font-light`}>
+    <footer className={`mt-10 pb-10 border-t border-gray-200 pt-8 text-center text-sm ${darkMode ? ' text-gray-400 ' : ' text-gray-500 '} font-light`}>
       <p>© 2026 Hisham Bhatti. All rights reserved.</p>
       <p className="mt-2">
         Built with <span className="text-sky-500">React</span>,{" "}

@@ -7,7 +7,7 @@ export default function Projects({darkMode, projects}) {
 
   return (
     <section id="portfolio" className="pt-8 px-4">
-      <h2 className="text-3xl mb-8 border-b-2 border-gray-100 pb-2">Projects</h2>
+      <h2 className="text-3xl mb-8 border-b-2 border-gray-200 pb-2">Projects</h2>
 
       {/* Horizontal Scroll Container */}
       <div className="flex overflow-x-auto gap-6 no-scrollbar snap-x snap-mandatory">

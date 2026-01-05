@@ -73,11 +73,56 @@ export const projects = [
   },
   {
     title: "Simple DB",
-    short: "A DBMS that runs SQL queries, supports concurrent transactions, and handles recovery via a write-ahead log.",
-    long:  "A DBMS implementation to run SQL queries. Supports converstion of logical to physical query plan, query optimization, concurrency with Strict 2PL locking, and recovery via a write-ahead log.",
+    short: "A DBMS for concurrent transactions, and handles recovery via a write-ahead log.",
+    long:  "A DBMS implementation to run SQL queries. Supports conversion of logical to physical query plan, query optimization, concurrency with Strict 2PL locking, and recovery via a write-ahead log.",
     image: "project_pics/simple-db.png",
-    tools: ["Java", "Databases", "Concurrency"],
+    tools: ["Java", "SQL", "Databases", "Concurrency"],
     demo: null,
     github: "https://github.com/hishambhatti/simple-db"
-  }
+  },
+  {
+    title: "Clinical Trials",
+    short: "An investigation of the statistics behind clinical trial design, with an analysis of the Beta-Blocker Heart Attack Trial.",
+    long:  "",
+    image: "project_pics/clinical-trials.png",
+    tools: ["R", "Statistics", "Healthcare", "Clinical Trials"],
+    demo: null,
+    github: "https://github.com/hishambhatti/clinical-trials-drp"
+  },
+  {
+    title: "Campus Map",
+    short: "Applying Dijkstra's Algorithm to find the shortest path between points on UW campus.",
+    long:  "A full-stack web application implementing Dijkstra's Algorithm to find the shortest path between points on UW campus. Backend built with Spark server and frontend in React.",
+    image: "project_pics/campus-map.png",
+    tools: ["Java", "Spark", "React", "Algorithms"],
+    demo: null,
+    github: "https://github.com/hishambhatti/campus-map"
+  },
+  {
+    title: "Monte Carlo Metropolis-Hastings",
+    short: "A proof of the MCMH algorithm and an example computing the expectation of a distribution.",
+    long:  "A proof that the average error of Monte Carlo Integration converges to 0, and an example using the Metropolis-Hastings algorithm to compute the expectation of an unknown distribution. Submitted for Math 336: Honors Advanced Calculus in Spring 2023.",
+    image: "project_pics/mcmh.png",
+    tools: ["Jupyter Notebook", "LaTeX", "Statistics", "Algorithms"],
+    demo: null,
+    github: "https://github.com/hishambhatti/MC-Metropolis-Hastings"
+  },
+  {
+    title: "Persona Pathogen",
+    short: "A puzzle game where you play as a single germ trying to hop from host to host!",
+    long:  "This game is about steering a disease across the map, infecting all people along the way. Each character has unique movement, which creates a puzzle about transmitting the disease in varied environments.",
+    image: "project_pics/persona-pathogen.png",
+    tools: ["Unity", "C#", "Game Design"],
+    demo: "https://devpost.com/software/melon-jam-submission",
+    github: "https://github.com/rishitkhare/Melon-Jam-Submission"
+  },
+  {
+    title: "Kinematic Schematic",
+    short: "An algebra solver designed to help students apply various kinematic equations.",
+    long:  "Kinematic equations are fundamental to understand Newtonian mechanics. This project allows students to input various physical quantities, and see algebraic steps to obtain the rest.",
+    image: "project_pics/kinematic-schematic.png",
+    tools: ["Unity", "Simulation", "Physics", "Education"],
+    demo: "https://devpost.com/software/kinematic-schematic",
+    github: "https://github.com/rishitkhare/kinematic-schematic"
+  },
 ];
