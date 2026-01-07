@@ -83,7 +83,7 @@ export const projects = [
   {
     title: "Clinical Trials",
     short: "An investigation of the statistics behind clinical trial design, with an analysis of the Beta-Blocker Heart Attack Trial.",
-    long:  "",
+    long:  "An investigation of the statistics behind clinical trial design, such as early stopping criteria and group sequential methods. Applied these tools to study the Beta-Blocker Heart Attack Trials in the 70s.",
     image: "project_pics/clinical-trials.png",
     tools: ["R", "Statistics", "Healthcare", "Clinical Trials"],
     demo: null,
