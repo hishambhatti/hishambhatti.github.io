@@ -8,7 +8,7 @@ const PublicationItem = ({ title, authors, journal, year, links, note, darkMode 
           {title}
         </h3>
 
-        <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} mt-1 max-w-[45vw]`}>
+        <p className={`${darkMode ? 'text-gray-400' : 'text-gray-600'} mt-1 max-w-[70vw] md:max-w-[45vw]`}>
           {authors.map((author, index) => (
             <React.Fragment key={index}>
               <span className={author.includes("Hisham Bhatti") ? "font-semibold underline decoration-gray-400" : ""}>
@@ -46,7 +46,7 @@ const PublicationItem = ({ title, authors, journal, year, links, note, darkMode 
 
 export default function Publications({darkMode, publications}) {
   return (
-    <section id="publications" className="pt-8 px-4">
+    <section id="publications" className="pt-8 px-4 scroll-mt-20">
       <h2 className="text-3xl border-b-2 border-gray-200 pb-2 mb-8">Publications</h2>
       <div className="space-y-4">
         {publications.map((pub, index) => (

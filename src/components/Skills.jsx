@@ -21,7 +21,7 @@ const SkillSection = ({ title, skills, darkMode }) => (
 
 export default function Skills({darkMode, skills}) {
   return (
-    <section id="skills" className={`pt-8 px-4`}>
+    <section id="skills" className={`pt-8 px-4 scroll-mt-20`}>
       <h2 className="text-3xl border-b-2 border-gray-200 pb-2 mb-8">Skills</h2>
       <div className="space-y-10">
         {skills.map((group) => (

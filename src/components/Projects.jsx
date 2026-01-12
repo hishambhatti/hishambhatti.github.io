@@ -6,7 +6,7 @@ export default function Projects({darkMode, projects}) {
   const [selectedProject, setSelectedProject] = useState(null);
 
   return (
-    <section id="portfolio" className="pt-8 px-4">
+    <section id="portfolio" className="pt-8 px-4 scroll-mt-20">
       <h2 className="text-3xl mb-8 border-b-2 border-gray-200 pb-2">Projects</h2>
 
       {/* Horizontal Scroll Container */}
