@@ -18,9 +18,7 @@ export default function About() {
         My interests are broad: theory and applications, science and engineering. I have a deep appreciation for the mathematical foundations of computer science, such as deep learning, algorithms, statistics, and convex optimization. These days, my work focuses on applying these models to tackle real-world problems.
       </p> */}
       <p>
-        Outside of science, I enjoy reading, <a href="https://www.strava.com/athletes/87374664" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:underline transition duration-100">
-          triathlon-ing
-        </a>, gaming, and scouring Google Maps to find obscure parks, roads, and trails. I love meeting new people – feel free to reach out to me if you wanna chat career, hobbies, or anything!
+        Outside of science, I enjoy reading, triathlon-ing, gaming, and scouring Google Maps to find obscure parks, roads, and trails. I love meeting new people – feel free to reach out to me if you wanna chat career, hobbies, or anything!
       </p>
     </section>
   )
