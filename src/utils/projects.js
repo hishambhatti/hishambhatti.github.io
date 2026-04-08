@@ -27,15 +27,6 @@ export const projects = [
     github: "https://github.com/hishambhatti/mini-google"
   },
   {
-    title: "SVD Image Compression",
-    short: "A tool to simulate image compression using singular value decomposition.",
-    long: "Uses singular value decomposition, a method of unsupervised learning, to approximate images. Users see a dashboard with insightful statistics to visualize how the quality changes with k.",
-    image: "project_pics/image-compression-svd.png",
-    tools: ["Python", "React", "Javascript", "Tailwind CSS", "Linear Algebra"],
-    demo: "https://hishambhatti.com/image-compression-svd/",
-    github: "https://github.com/hishambhatti/image-compression-svd"
-  },
-  {
     title: "Periodic Pairs",
     short: "A simple matching game for science-type icons, where you design your own gameboard!",
     long: "This is a simple matching game for science-type icons! The twist is that YOU design your own gameboard! Everything in this game is raw frontend (HTML, CSS, Javascript). No frameworks, no libraries.",
@@ -43,6 +34,24 @@ export const projects = [
     tools: ["HTML", "CSS", "Javascript"],
     demo: "https://hishambhatti.com/periodic-pairs/",
     github: "https://github.com/hishambhatti/periodic-pairs"
+  },
+  {
+    title: "Tait Graph Algorithm",
+    short: "An algorithm that generates the Tait Graph from a knot diagram in SageMath.",
+    long: "An algorithm that generates the Tait Graph given a knot diagram's PD code in SageMath. This project was completed as part of the 2024 Mathematics REU at CSU: Chico.",
+    image: "project_pics/tait-graph-algorithm.png",
+    tools: ["Knot Theory", "SageMath", "Algorithms", "Python"],
+    demo: null,
+    github: "https://github.com/sadboyneedcodes/REU2024"
+  },
+  {
+    title: "SVD Image Compression",
+    short: "A tool to simulate image compression using singular value decomposition.",
+    long: "Uses singular value decomposition, a method of unsupervised learning, to approximate images. Users see a dashboard with insightful statistics to visualize how the quality changes with k.",
+    image: "project_pics/image-compression-svd.png",
+    tools: ["Python", "React", "Javascript", "Tailwind CSS", "Linear Algebra"],
+    demo: "https://hishambhatti.com/image-compression-svd/",
+    github: "https://github.com/hishambhatti/image-compression-svd"
   },
   {
     title: "CLT Statistics",
