@@ -37,7 +37,7 @@ export const skills = [
   {
     title: "Cloud & Dev Tools",
     skills: [
-      { name: "AWS", badgeUrl: "https://custom-icon-badges.demolab.com/badge/AWS-%23FF9900.svg??style=for-the-badge&logo=aws&logoColor=white" },
+      { name: "AWS", badgeUrl: "https://custom-icon-badges.demolab.com/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=aws&logoColor=white" },
       { name: "Azure", badgeUrl: "https://custom-icon-badges.demolab.com/badge/Microsoft%20Azure-0089D6?style=for-the-badge&logo=msazure&logoColor=white" },
       { name: "Google Cloud", badgeUrl: "https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" },
       { name: "Git", badgeUrl: "https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" },
@@ -47,6 +47,7 @@ export const skills = [
       { name: "Firebase", badgeUrl: "https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" },
       { name: "Postgres", badgeUrl: "https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" },
       { name: "Linux", badgeUrl: "https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" },
+      { name: "Cursor", badgeUrl: "https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" },
     ],
   },
   {
