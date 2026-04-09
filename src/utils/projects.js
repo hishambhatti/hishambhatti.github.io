@@ -27,15 +27,6 @@ export const projects = [
     github: "https://github.com/hishambhatti/mini-google"
   },
   {
-    title: "Periodic Pairs",
-    short: "A simple matching game for science-type icons, where you design your own gameboard!",
-    long: "This is a simple matching game for science-type icons! The twist is that YOU design your own gameboard! Everything in this game is raw frontend (HTML, CSS, Javascript). No frameworks, no libraries.",
-    image: "project_pics/periodic-pairs.jpeg",
-    tools: ["HTML", "CSS", "Javascript"],
-    demo: "https://hishambhatti.com/periodic-pairs/",
-    github: "https://github.com/hishambhatti/periodic-pairs"
-  },
-  {
     title: "Dynamic Solar",
     short: "A toy prototype for a solar panel controller built with an ESP32 microcontroller.",
     long: "A toy prototype for a solar panel controller built with an ESP32 microcontroller. It uses a light sensor to track the sun and a servo motor to adjust the panel's angle for optimal energy absorption.",
@@ -49,9 +40,26 @@ export const projects = [
     short: "An algorithm that generates the Tait Graph from a knot diagram in SageMath.",
     long: "An algorithm that generates the Tait Graph given a knot diagram's PD code in SageMath. This project was completed as part of the 2024 Mathematics REU at CSU: Chico.",
     image: "project_pics/tait-graph-algorithm.png",
-    tools: ["Knot Theory", "SageMath", "Algorithms", "Python"],
+    tools: ["Python", "SageMath", "Knot Theory", "Algorithms"],
     demo: null,
     github: "https://github.com/sadboyneedcodes/REU2024"
+  },
+  {
+    title: "Crab Behavior",
+    short: "A research project using computer vision to detect, analyze, and predict crab behavior.",
+    long: "This project uses the SAM3 foundation model in computer vision to detect and process snow crab data. We create a generalizable data processing pipeline and develop a virtual crab simulation to support sustainable fisheries.",
+    image: "project_pics/crab-behavior.png",
+    tools: ["Python", "OpenCV", "Computer Vision", "SAM3", "Sustainability"],
+    github: "https://github.com/mlurbur/crab_behavior"
+  },
+  {
+    title: "Periodic Pairs",
+    short: "A simple matching game for science-type icons, where you design your own gameboard!",
+    long: "This is a simple matching game for science-type icons! The twist is that YOU design your own gameboard! Everything in this game is raw frontend (HTML, CSS, Javascript). No frameworks, no libraries.",
+    image: "project_pics/periodic-pairs.jpeg",
+    tools: ["HTML", "CSS", "Javascript"],
+    demo: "https://hishambhatti.com/periodic-pairs/",
+    github: "https://github.com/hishambhatti/periodic-pairs"
   },
   {
     title: "SVD Image Compression",
