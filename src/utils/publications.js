@@ -1,5 +1,12 @@
 export const publications = [
   {
+    title: "HandOff: Detecting Unintentional Face Touching in the Wild with Self-Supervised Learning from Smart Rings",
+    authors: ["Xiyuan Shen", "Zhihan Zhang", "Maxwell Xu", "Zhe He", "Jiexin Ding", "Hisham Bhatti", "Quang Tran", "Jiuyang Lyu", "Chun Yu", "Shwetak Patel", "Jacob Wobbrock"],
+    journal: "To be published in UIST",
+    year: "2026",
+    links: []
+  },
+  {
     title: "On the Structure of Bad Science Matrices",
     authors: ["Alex Albors", "Hisham Bhatti", "Lukshya Ganjoo", "Raymond Guo", "Dmitriy Kunisky", "Rohan Mukherjee", "Alicia Stepin", "Tony Zeng"],
     journal: "Involve",

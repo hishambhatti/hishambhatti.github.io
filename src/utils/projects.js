@@ -62,6 +62,15 @@ export const projects = [
     github: "https://github.com/hishambhatti/periodic-pairs"
   },
   {
+    title: "SimCLR for IMU Gestures",
+    short: "An implementation of SimCLR and benchmarking for the IMU hand gesture dataset.",
+    long: "We train a SimCLR stlye encoder for a dataset of hand gestures. Then, the model is trained on various downstream tasks, showcasing its effectivness to detect and cluster repetitive behaviors (BFRBs).",
+    image: "project_pics/simclr-bfrb.png",
+    tools: ["Python", "Contrastive Learning", "Self-supervised Learning", "Health"],
+    demo: "",
+    github: "https://github.com/hishambhatti/simclr-bfrb"
+  },
+  {
     title: "SVD Image Compression",
     short: "A tool to simulate image compression using singular value decomposition.",
     long: "Uses singular value decomposition, a method of unsupervised learning, to approximate images. Users see a dashboard with insightful statistics to visualize how the quality changes with k.",
