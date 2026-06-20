@@ -52,6 +52,11 @@ export default function ProjectModal({ project, darkMode, onClose }) {
                 <i className="fa-solid fa-arrow-up-right-from-square text-xl"></i> Live Demo
               </a>
             )}
+            {project.paper && (
+              <a href={project.paper} target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-blue-500 transition">
+                <i className="fa-regular fa-file-lines text-xl"></i> Paper
+              </a>
+            )}
           </div>
         </div>
       </div>

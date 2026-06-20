@@ -24,8 +24,8 @@ export const projects = [
     image: "project_pics/pino-robustness.png",
     animatedImage: "project_pics/pino-robustness.gif",
     tools: ["Python", "Physics-Informed ML", "Computational Finance"],
-    demo: "https://drive.google.com/file/d/10g9tqvXYQ07Bc5zC-xp8jD0goBLGV4E2/view?usp=sharing",
-    github: "https://github.com/hishambhatti/PINO-apps"
+    github: "https://github.com/hishambhatti/PINO-apps",
+    paper: "https://drive.google.com/file/d/10g9tqvXYQ07Bc5zC-xp8jD0goBLGV4E2/view?usp=sharing"
   },
   {
     title: "Mini Google",
@@ -150,7 +150,8 @@ export const projects = [
     image: "project_pics/mcmh.png",
     tools: ["Jupyter Notebook", "LaTeX", "Statistics", "Algorithms"],
     demo: null,
-    github: "https://github.com/hishambhatti/MC-Metropolis-Hastings"
+    github: "https://github.com/hishambhatti/MC-Metropolis-Hastings",
+    paper: "https://drive.google.com/file/d/1QzrKi2wambyzxHx_q6IfFkhrqeYF9wnZ/view?usp=sharing"
   },
   {
     title: "Persona Pathogen",
