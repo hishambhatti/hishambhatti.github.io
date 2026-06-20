@@ -12,8 +12,8 @@ export const publications = [
     journal: "Involve",
     year: "2024",
     links: [
-      { label: "arXiv", url: "https://arxiv.org/abs/2408.00933" },
-      { label: "PDF", url: "https://arxiv.org/pdf/2408.00933" }
+      { label: "Involve", url: "https://msp.org/involve/2026/19-3/p05.xhtml" },
+      { label: "arXiv", url: "https://arxiv.org/abs/2408.00933" }
     ]
   },
   {
