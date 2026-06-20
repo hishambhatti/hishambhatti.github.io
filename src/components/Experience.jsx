@@ -29,14 +29,14 @@ export default function Experience({darkMode}) {
           <div className="mt-4">
             <TimelineItem
               title="M.S. in Computer Science & Engineering"
-              date="Sept 2025 - Present"
+              date="Sept. 2025 - Present"
               subtitle="University of Washington"
               location="Seattle, WA"
               darkMode={darkMode}
             />
             <TimelineItem
               title="B.S. in CS, B.S. in Math, Minor in Physics"
-              date="Sep 2021 - June 2025"
+              date="Sept. 2021 - June 2025"
               subtitle="University of Washington"
               location="Seattle, WA"
               darkMode={darkMode}
@@ -52,28 +52,28 @@ export default function Experience({darkMode}) {
           <div className="">
             <TimelineItem
               title="Software Engineer Intern"
-              date="2026"
+              date="June 2026 - Sept. 2026"
               subtitle="Google"
               location="San Diego, CA"
               darkMode={darkMode}
             />
             <TimelineItem
               title="AI Engineer Intern"
-              date="April 2025 - June 2025"
+              date="Apr. 2025 - June 2025"
               subtitle="Revefi"
               location="Redmond, WA"
               darkMode={darkMode}
             />
              <TimelineItem
               title="Undergraduate Researcher @ NSF"
-              date="June 2024 - August 2024"
+              date="June 2024 - Aug. 2024"
               subtitle="Mathematics REU at CSU Chico"
               location="Chico, CA"
               darkMode={darkMode}
             />
             <TimelineItem
               title="Computational Biology Intern"
-              date="June 2023 - Feb 2024"
+              date="June 2023 - Feb. 2024"
               subtitle="Molecular Information & Systems Lab"
               location="Seattle, WA"
               darkMode={darkMode}
