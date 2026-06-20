@@ -12,7 +12,7 @@ export default function About() {
         </a>. I recently graduated with dual degrees in Mathematics and Computer Science at UW (with a minor in Physics).
       </p>
       <p>
-        My research focuses on applied AI for science, particularly for health and sustainability. I like problems using data of many forms (bio, geospatial, motion) to solve problems in the natural world. I'm also interested in data visualization, specifically how we can leverage simulations to further education in math and science.
+        My research focuses on applied AI for science, particularly for health and sustainability. I enjoy using data-driven techniques to solve problems in the natural world. I’ve worked across academic research labs, startups, and big technology companies throughout the West coast.
       </p>
       {/* <p>
         My interests are broad: theory and applications, science and engineering. I have a deep appreciation for the mathematical foundations of computer science, such as deep learning, algorithms, statistics, and convex optimization. These days, my work focuses on applying these models to tackle real-world problems.
