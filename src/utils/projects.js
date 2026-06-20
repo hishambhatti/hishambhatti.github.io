@@ -18,6 +18,16 @@ export const projects = [
     github: "https://github.com/ubicomplab/human-health-sounds"
   },
   {
+    title: "PINO Robustness",
+    short: "Physics-informed neural operator robustness under super-resolution and noisy data regimes.",
+    long: "Physics-informed neural operators (PINOs) use a hybrid data-physics loss function to solve partial differential equations. Here, we assess its robustness under super resolution and real-world option prices.",
+    image: "project_pics/pino-robustness.png",
+    animatedImage: "project_pics/pino-robustness.gif",
+    tools: ["Python", "Physics-Informed ML", "Computational Finance"],
+    demo: "https://drive.google.com/file/d/10g9tqvXYQ07Bc5zC-xp8jD0goBLGV4E2/view?usp=sharing",
+    github: "https://github.com/hishambhatti/PINO-apps"
+  },
+  {
     title: "Mini Google",
     short: "A multithreaded file search engine with a POSIX-compliant web server.",
     long: "A multithreaded file search engine built in C/C++ to handle concurrent users using a custom doubly-linked list and hash table for document indexing. Uses HTML rendering and input sanitization.",
