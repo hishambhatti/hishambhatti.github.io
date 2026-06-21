@@ -1,12 +1,13 @@
 export const projects = [
   {
-    title: "Meme Generator",
-    short: "An application using deep learning and computer vision to generate meme captions.",
-    long: "We train a transformer-based model to extract humorous context from images and craft an amusing caption. Users can upload their own image and explore the quality of generated captions.",
-    image: "project_pics/meme-generator.png",
-    tools: ["PyTorch", "Flask", "React", "Tailwind CSS", "GCP", "Deep Learning"],
-    demo: "https://hishambhatti.com/meme-generator/",
-    github: "https://github.com/hishambhatti/meme-generator"
+    title: "CBF-RL for Dynamic, Multi-Agent Navigation",
+    short: "An extension of control barrier function RL to multi-agent, double-integrator dynamics.",
+    long: "Control barrier functions (CBFs) integrate formal safety mechanisms into reinforcement learning training. We extend this framework to a multi-agent, dynamic environment with stochastic control noise.",
+    image: "project_pics/cbf-rl.png",
+    video: "project_pics/cbf-rl.mp4",
+    tools: ["Python", "Reinforcement Learning (RL)", "Control Theory", "Robotics", "Safety"],
+    github: "https://github.com/hishambhatti/cbf-rl-environment",
+    paper: "https://github.com/hishambhatti/cbf-rl-environment/blob/main/CSE579_Poster_HB_JN.pdf"
   },
   {
     title: "Human Health Sounds",
@@ -46,13 +47,13 @@ export const projects = [
     github: "https://github.com/benabryant/DynamicSolar"
   },
   {
-    title: "Tait Graph Algorithm",
-    short: "An algorithm that generates the Tait Graph from a knot diagram in SageMath.",
-    long: "An algorithm that generates the Tait Graph given a knot diagram's PD code in SageMath. This project was completed as part of the 2024 Mathematics REU at CSU: Chico.",
-    image: "project_pics/tait-graph-algorithm.png",
-    tools: ["Python", "SageMath", "Knot Theory", "Algorithms"],
-    demo: null,
-    github: "https://github.com/sadboyneedcodes/REU2024"
+    title: "Meme Generator",
+    short: "An application using deep learning and computer vision to generate meme captions.",
+    long: "We train a transformer-based model to extract humorous context from images and craft an amusing caption. Users can upload their own image and explore the quality of generated captions.",
+    image: "project_pics/meme-generator.png",
+    tools: ["PyTorch", "Flask", "React", "Tailwind CSS", "GCP", "Deep Learning"],
+    demo: "https://hishambhatti.com/meme-generator/",
+    github: "https://github.com/hishambhatti/meme-generator"
   },
   {
     title: "Crab Behavior",
@@ -61,6 +62,15 @@ export const projects = [
     image: "project_pics/crab-behavior.png",
     tools: ["Python", "OpenCV", "Computer Vision", "SAM3", "Sustainability"],
     github: "https://github.com/mlurbur/crab_behavior"
+  },
+  {
+    title: "Tait Graph Algorithm",
+    short: "An algorithm that generates the Tait Graph from a knot diagram in SageMath.",
+    long: "An algorithm that generates the Tait Graph given a knot diagram's PD code in SageMath. This project was completed as part of the 2024 Mathematics REU at CSU: Chico.",
+    image: "project_pics/tait-graph-algorithm.png",
+    tools: ["Python", "SageMath", "Knot Theory", "Algorithms"],
+    demo: null,
+    github: "https://github.com/sadboyneedcodes/REU2024"
   },
   {
     title: "Periodic Pairs",

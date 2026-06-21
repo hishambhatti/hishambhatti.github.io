@@ -19,12 +19,24 @@ export default function ProjectModal({ project, darkMode, onClose }) {
           <i className="fa-solid fa-xmark"></i>
         </button>
 
-        <img
-          key={project.animatedImage ?? project.image}
-          src={project.animatedImage ?? project.image}
-          alt={project.title}
-          className="w-full object-cover aspect-video bg-white"
-        />
+        {project.video ? (
+          <video
+            key={project.video}
+            src={project.video}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full object-cover aspect-video bg-white"
+          />
+        ) : (
+          <img
+            key={project.animatedImage ?? project.image}
+            src={project.animatedImage ?? project.image}
+            alt={project.title}
+            className="w-full object-cover aspect-video bg-white"
+          />
+        )}
 
         <div className="px-8 pt-6 pb-8 overflow-y-auto">
           <h3 className="text-3xl font-bold mb-4">{project.title}</h3>
