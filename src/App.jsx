@@ -86,7 +86,7 @@ function App() {
               <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-600 hover:underline underline-offset-2 transition">
                 Resume
               </a>
-              &nbsp;(as of July 2025)
+              &nbsp;(as of June 2026)
             </p>
           </div>
         </aside>
