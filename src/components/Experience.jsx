@@ -52,6 +52,13 @@ export default function Experience({darkMode}) {
           <div className="">
             <TimelineItem
               title="Software Engineer Intern"
+              date="Sept. 2026 - Present"
+              subtitle="Tesla"
+              location="Palo Alto, CA"
+              darkMode={darkMode}
+            />
+            <TimelineItem
+              title="Software Engineer Intern"
               date="June 2026 - Sept. 2026"
               subtitle="Google"
               location="San Diego, CA"
@@ -69,13 +76,6 @@ export default function Experience({darkMode}) {
               date="June 2024 - Aug. 2024"
               subtitle="Mathematics REU at CSU Chico"
               location="Chico, CA"
-              darkMode={darkMode}
-            />
-            <TimelineItem
-              title="Computational Biology Intern"
-              date="June 2023 - Feb. 2024"
-              subtitle="Molecular Information & Systems Lab"
-              location="Seattle, WA"
               darkMode={darkMode}
             />
           </div>
